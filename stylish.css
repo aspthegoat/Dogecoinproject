@@ -105,3 +105,42 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+.profit{
+    background-color: yellowgreen;
+}
+.lose{
+    background-color: red;
+}
+tr:hover{
+    background-color: white;
+}
+.navbar-item:hover{
+    background-color: rgb(236, 236, 4);
+}
+
+
+#square{
+    background-color: #B6B038;
+    width: 800px;
+    height: 450px;
+    border-radius: 8px;
+    position: relative ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteiner1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+#square #sectionimg3{
+    padding: 10px;
+    object-fit: cover;
+    width: 700px;
+    
+}
