@@ -113,9 +113,11 @@ table{
 }
 tr:hover{
     background-color: white;
+    transition: 0.7s;
 }
 .navbar-item:hover{
     background-color: rgb(236, 236, 4);
+    transition: 0.7s;
 }
 
 
@@ -144,3 +146,35 @@ tr:hover{
     width: 700px;
     
 }
+body{
+    background: #c7c700;
+background: linear-gradient(146deg,rgba(199, 199, 0, 1) 0%, rgba(168, 146, 0, 1) 50%, rgba(237, 221, 83, 1) 100%);
+background-size: contain;
+background-repeat: no-repeat;
+}
+#footer2{
+    margin-top: 25%;
+}
+#square2{
+    background-color: #B6B038;
+    width: 700px;
+    height: 420px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteiner2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#tabela{
+    margin-top: 1%;
+    float: inline-end;
+    margin-right: 16%;
+}
+
